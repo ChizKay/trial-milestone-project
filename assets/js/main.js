@@ -35,3 +35,12 @@ ${countyData.map(function(counties){
         <div>`;
 }).join("")}
 `;
+
+//Smooth scroll 
+const scroll = new SmoothScroll('.navbar-nav a[href*="#"]',{
+    speed: 800
+});
+
+
+
+
