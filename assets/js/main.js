@@ -37,7 +37,7 @@ ${countyData.map(function(counties){
 `;
 
 //Smooth scroll 
-const scroll = new SmoothScroll('.navbar-nav a[href*="#"]',{
+var scroll = new SmoothScroll('.navbar-nav a[href*="#"]',{
     speed: 800
 });
 
