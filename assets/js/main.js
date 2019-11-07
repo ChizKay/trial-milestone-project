@@ -25,18 +25,13 @@ var countyData = [{
 
 ];
 
-document.getElementById("county").innerHTML = `
+document.getElementById("places").innerHTML = `
 <h1 class="county-title">Places To Visit In Ireland.</h1>
 ${countyData.map(function(counties){
-    return `<div class="places">
-    <h2>${counties.name}</h2>
-    <p>${counties.about}
-    </div>`
+    return `
+        <div class = "county">
+           <h2>${counties.name}</h2>
+            <p>${counties.about}</p>
+        <div>`;
 }).join("")}
-`
-
-
-
-
-
-
+`;
