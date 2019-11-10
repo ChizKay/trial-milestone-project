@@ -1,11 +1,11 @@
 function initMap() {
     // Styles Map in night mode.
-    var map = new google.maps.Map(document.getElementById("map"), {
+    var map = new google.maps.Map(document.getElementById("locationMap"), {
         center: {
             lat: 53.1424,
             lng: -7.6921
         },
-        zoom: 5,
+        zoom: 12,
         styles: [
             { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
@@ -91,11 +91,26 @@ function initMap() {
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     var locations = [
-        { lat: 52.6541, lng: -7.2448 },
-        { lat: 53.2707, lng: -9.0568 },
-        { lat: 51.8985, lng: -8.4756 },
-        { lat: 54.6538, lng: -8.1096 },
-        { lat: 53.3498, lng: -6.2603 },
+        { lat: 52.6495, lng: -7.2513 },
+        { lat: 52.6503, lng: -7.2523 },
+        { lat: 52.6497, lng: -7.2517 },
+        { lat: 52.6533, lng: -7.2481 },
+        { lat: 52.6643, lng: -7.2505 },
+        { lat: 53.2514, lng: -9.1524 },
+        { lat: 53.2879, lng: -9.0467 },
+        { lat: 53.3004, lng: -9.0985 },
+        { lat: 53.2586, lng: -9.0850 },
+        { lat: 53.2745, lng: -9.0467 },
+        { lat: 51.8911, lng: -8.4903 },
+        { lat: 51.8959, lng: -8.4848 },
+        { lat: 51.8522, lng: -8.4867 },
+        { lat: 51.9047, lng: -8.4520 },
+        { lat: 51.8737, lng: -8.4203 },
+        { lat: 54.6961, lng: -8.0532 },
+        { lat: 54.6613, lng: -8.0796 },
+        { lat: 54.6880, lng: -8.0669 },
+        { lat: 54.6590, lng: -8.1180 },
+        { lat: 54.6536, lng: -8.1107 }
     ];
 
     var markers = locations.map(function(location, i) {
