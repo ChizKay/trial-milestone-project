@@ -5,7 +5,7 @@ function initMap() {
             lat: 53.1424,
             lng: -7.6921
         },
-        zoom: 12,
+        zoom: 8,
         styles: [
             { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
@@ -110,7 +110,12 @@ function initMap() {
         { lat: 54.6613, lng: -8.0796 },
         { lat: 54.6880, lng: -8.0669 },
         { lat: 54.6590, lng: -8.1180 },
-        { lat: 54.6536, lng: -8.1107 }
+        { lat: 54.6536, lng: -8.1107 },
+        { lat: 53.3385, lng: -6.2529 },
+        { lat: 53.3448, lng: -6.2329 },
+        { lat: 53.3324, lng: -6.2575 },
+        { lat: 53.3415, lng: -6.2614 },
+        { lat: 53.3908, lng: -6.2738 }
     ];
 
     var markers = locations.map(function(location, i) {
