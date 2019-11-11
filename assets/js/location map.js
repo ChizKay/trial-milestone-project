@@ -5,7 +5,7 @@ function initMap() {
             lat: 53.1424,
             lng: -7.6921
         },
-        zoom: 8,
+        zoom: 4,
         styles: [
             { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },

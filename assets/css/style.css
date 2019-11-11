@@ -36,6 +36,10 @@
   display: flex;
   justify-content: center;
  }
+ 
+ .county-title {
+  margin: auto;
+ }
 
  .row {
   width: 80%;
@@ -53,14 +57,15 @@
  }
 
  h2 {
-  margin-top: 5%;
+  margin-top: 8%;
   margin-bottom: 5%;
  }
 
  footer {
+  margin-top: 20px;
   padding-top: 50px;
   padding-bottom: 70px;
-  background-color: #2C4378;
+  background-color: black;
   opacity: 0.8;
  }
 
@@ -68,23 +73,25 @@
 
  @media (max-width: 767px) {
 
+.ireImg {
+ height: 350px;
+}
+
   .container {
    flex-direction: column;
   }
-  
+
   .row {
    margin-left: auto;
    margin-right: auto;
   }
-  
+
   #map {
-      height: 500px;
-    width: 80%;
-    margin-bottom: 20px;
+   height: 500px;
+   width: 80%;
+   margin-bottom: 20px;
   }
+
   
-  h1 {
-   text-align: center;
-  }
- }
  
+ }

@@ -27,14 +27,16 @@ var countyData = [{
 
 ];
 
+/*-----index.html-----*/
+
 document.getElementById("places").innerHTML = `
-<h1 class="county-title">Places To Visit In Ireland.</h1>
+<h1 class="county-title">Explore Ireland</h1>
 ${countyData.map(function(counties){
     return `
         <div class = "county">
            <h2>${counties.name}</h2>
             <p>${counties.about}</p>
-        <div>`;
+        </div>`;
 }).join("")}
 `;
 
@@ -42,6 +44,27 @@ ${countyData.map(function(counties){
 var scroll = new SmoothScroll('.navbar-nav a[href*="#"]',{
     speed: 800
 });
+
+/*-----location.html-----*/
+
+document.getElementById("list-hotels").innerHTML = `
+<h1 class="hotel-title">Popular Hotels</h1>
+${countyData.map(function(hotels){
+    return `
+        <div class = "hotel">
+           <h2>${hotels.name}</h2>
+               <ul class = "hotels-ul-list">
+                   <li>hotel 1</li>
+                   <li>hotel 2</li>
+                   <li>hotel 3</li>
+                   <li>hotel 4</li>
+                   <li>hotel 5</li>
+            
+               </ul>
+        </div>`;
+}).join("")}
+`;
+
 
 
 
