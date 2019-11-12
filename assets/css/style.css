@@ -73,6 +73,13 @@
 
  @media (max-width: 767px) {
 
+  .navbar-dark
+  .navbar-nav
+  .nav-link {
+   color: #FFF;
+  }
+
+
   .ireImg {
    height: 350px;
   }

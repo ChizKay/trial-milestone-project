@@ -38,7 +38,6 @@ function hotels(hotels) {
 }
 
 document.getElementById("list-hotels").innerHTML = `
-<h1 class = "hotel-title"> Popular Hotels <h1>
 ${countyData.map(function(allHotels){
     return `
     <div class = "all-hotels">

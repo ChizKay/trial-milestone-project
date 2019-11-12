@@ -24,13 +24,18 @@ body {
     font-weight: bolder;
 }
 
+.hotel-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .ireImg {
     width: 100%;
     height: 70%;
 }
 
-.hotel-title {
-    margin: auto;
+.county-hotels {
+    margin-bottom: 20px;
 }
 
 .county-hotel-list {
@@ -71,6 +76,10 @@ footer {
 
 @media (max-width: 767px) {
 
+    .navbar-dark .navbar-nav .nav-link {
+        color: #FFF;
+    }
+
     .ireImg {
         height: 350px;
     }
@@ -82,6 +91,10 @@ footer {
     .row {
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .hotel-title {
+        margin-bottom: 8%;
     }
 
     #locationMap {
