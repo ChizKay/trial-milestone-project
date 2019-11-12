@@ -7,14 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
+    <link rel="stylesheet" type="text/css" href="assets/css/location.css">
+
 </head>
 
 <body>
-    <div class="container"></div>
-    <div class="row" id="list-hotels"></div>
-    <div class="row" id="locationMap"></div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#places">PLACES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#map">MAP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="location.html">HOTELS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <img src="assets/img/ireland.jpg" alt="ireland" class="ireImg">
+    <div class="content">
+        <div class="container">
+            <div class="row" id="list-hotels"></div>
+            <div class="row" id="locationMap"></div>
+        </div>
+    </div>
+
+    <footer></footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

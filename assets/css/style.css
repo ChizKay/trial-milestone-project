@@ -36,7 +36,7 @@
   display: flex;
   justify-content: center;
  }
- 
+
  .county-title {
   margin: auto;
  }
@@ -73,9 +73,9 @@
 
  @media (max-width: 767px) {
 
-.ireImg {
- height: 350px;
-}
+  .ireImg {
+   height: 350px;
+  }
 
   .container {
    flex-direction: column;
@@ -92,6 +92,7 @@
    margin-bottom: 20px;
   }
 
-  
- 
+
+
  }
+ 
