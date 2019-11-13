@@ -1,11 +1,11 @@
 function initMap() {
-    // Styles Map in night mode.
     var map = new google.maps.Map(document.getElementById("locationMap"), {
+        zoom: 4,
         center: {
             lat: 53.1424,
             lng: -7.6921
         },
-        zoom: 4,
+        
         styles: [
             { elementType: 'geometry', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
@@ -119,13 +119,13 @@ function initMap() {
 
     ];
 
+
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
-            label: labels[i % labels.length],
-            
+            label: labels[i % labels.length]
         });
-    
     });
+
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
