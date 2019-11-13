@@ -14,17 +14,19 @@ I aimed for simplicity and efficiency in this design to ensure the user(s) find(
 > Bootstrap Hamburger Menu that activates hidden elements, on click. Taken from [this](https://www.w3schools.com/bootstrap4/bootstrap_navbar.as) Bootstrap 4 example.
 >>Jquery and Bootstrap scripts (in that order) required in your index.html file to enable collapse of navbar.
 >Containing 4 links on the home page
->>>**Home**
+>>>**HOME**
 >
->>>**Places** 
+>>>**PLACES** 
 >
->>>**Map** 
+>>>**MAP** 
 >
->>>**Hotels**
+>>>**HOTELS**
 >
 >>>Each link takes you to the section labeled above
 >
->>**Hotels** takes you to the second webpage containing a list of five hotels in each County.
+>>**HOTELS** takes you to the second webpage containing a list of five hotels in each County.
+>>>An additional link **BOOKINGS** appears on the **HOTELS** page, this link brings you to an external website, where users can book hotels/flights and/or compare prices of each destination.
+>
 >Smooth scrolling enabled on all devices for smoother navigation through the page.
 >>Smooth scroll code taken from this [link](https://codepen.io/bradtraversy/pen/xBdyzr)>
 
