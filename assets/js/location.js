@@ -47,3 +47,8 @@ ${countyData.map(function(allHotels){
 }).join("")
 }
 `;
+
+//Smooth scroll 
+var scroll = new SmoothScroll('.navbar-nav a[href*="#"]',{
+    speed: 1000
+});
