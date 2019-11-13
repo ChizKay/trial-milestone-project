@@ -1,7 +1,10 @@
 # EXPLORE IRELAND
 
+This is an interactive Website containing basic information about certain parts of Ireland that attract a lot of Tourists. The webpage is divided into two main sections. <Strong></strong>
 
 ## UX
+
+My goal in this 
 
 
 
