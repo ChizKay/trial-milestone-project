@@ -42,7 +42,7 @@ I aimed for simplicity and efficiency in this design to ensure the user(s) find(
 >
 >>> requested Api key here : https://developers.google.com/maps/documentation/javascript/get-api-key
 >
->>replace key with "YOUR_API_KEY"
+>>replace "YOUR_API_KEY" with Key attained.
 >
 >>Followed a step by step example of how to write function to render maps from this [repo](https://github.com/Code-Institute-Solutions/InteractiveFrontendDevelopment-Resume/blob/master/01-GoogleMaps/06-moving_the_code_into_its_own_script/assets/js/maps.js) Code Institute
 >>> Including how to add Map Markers
@@ -73,9 +73,9 @@ I aimed for simplicity and efficiency in this design to ensure the user(s) find(
 ## Testing
 
 Extensive testing was done on several devices, and overall the outcome was satisfactory.
-The navigation bar in both mobile, tablets and laptops displayed well, no issues with the responsiveness of the width and height. The transition from individual links to the Hamburger menu from larger to smaller screens is near flawless. The rest of the page responds well in both large screens and smaller ones. Initially had an issue with the maps on devices with a max-width of 767px, but quickly resolved it with a media query.
+The navigation bar in both mobile, tablets and laptops displayed well, no issues with the responsiveness of the width and height. The transition from individual links to the Hamburger menu from large to smaller screen sizes is near flawless. The rest of the page responds well in both large screens and smaller ones. Initially had an issue with the Map on devices with a max-width of 767px, but quickly resolved it with a media query.
 
-Some of the devices the tests were done on
+Some of the devices the tests were done on:
 
 ###### Mobile phones
 - OnePlus 3t
@@ -105,11 +105,11 @@ Gained a better understanding  of the maps from this Youtube [Tutorial](https://
 
 ### Content
 
-The Information about the Counties was from a quick Google search, wikipedia was the result I used. Selection of the Counties was based on personal experiences, really enjoyed my time in each place. Currently live in Dublin.
+The Information about the Counties was from a quick Google search, wikipedia was the result I used. Selection of the Counties was based on personal experience, really enjoyed my time in each place. Currently live in Dublin. :)
 
 ### Media
 
->Background image was from a _Abstract background images_ google search.
+>Background image was taken from an _Abstract background images_ google search.
 >
 >The Image below the navbar was taken [from](https://www.google.com/search?q=ireland+at+night+images&rlz=1C1CHBF_enIE830IE830&sxsrf=ACYBGNRR9t8-WduZmLNPXCxIvnqPAXt28A:1573686811049&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjnzfCaqOjlAhX9QxUIHTl5AyMQ_AUIEigB&biw=1282&bih=577)
 
