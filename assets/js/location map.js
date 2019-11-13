@@ -116,13 +116,16 @@ function initMap() {
         { lat: 53.3324, lng: -6.2575 },
         { lat: 53.3415, lng: -6.2614 },
         { lat: 53.3908, lng: -6.2738 }
+
     ];
 
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
             position: location,
-            label: labels[i % labels.length]
+            label: labels[i % labels.length],
+            
         });
+    
     });
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }

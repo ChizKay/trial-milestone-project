@@ -63,6 +63,12 @@ body {
 
 }
 
+a > price-link{
+  font-size: 14px;
+ 
+  
+ }
+
 footer {
     margin-top: 20px;
     padding-top: 50px;
