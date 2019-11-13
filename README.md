@@ -1,14 +1,38 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# EXPLORE IRELAND
 
 
-Hi there! Welcome to AWS Cloud9!
+## UX
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
 
-Happy coding!
+
+## Features
+
+
+
+### Features Left to Implement
+
+
+## Technologies Used
+
+1. HTML5
+2. CSS3
+3. Bootstrap (https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js)
+4. JSON
+5. JavaScript
+
+## Testing
+
+
+## Deployment
+
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://chizkay.github.io/trial-milestone-project/ into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgements
