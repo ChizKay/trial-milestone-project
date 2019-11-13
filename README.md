@@ -1,6 +1,6 @@
 # EXPLORE IRELAND
 
-This is an interactive Website containing basic information about certain parts of Ireland that attract a lot of Tourists. The site has 2 pages and a link to an external site. Both pages are divided into two main sections (one conatining informtion about each County, and the other displaying the Map).
+This is an interactive Website containing basic information about certain parts of Ireland that attract a lot of Tourists. The site has 2 pages and a link to an external site. Both pages are divided into two main sections (one containing informtion about each County, and the other displaying the Map).
 
 ## UX
 
